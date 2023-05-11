@@ -1,0 +1,21 @@
+global:
+  environment: dev
+
+bootstrap:
+  secretContent:
+    username: root
+
+mail:
+  image:
+    repository: mail
+
+contract:
+  image:
+    repository: contract
+
+core:
+  image:
+      repository: contract
+
+kubemq-cluster:
+  key: abcd

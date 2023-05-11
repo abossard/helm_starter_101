@@ -1,0 +1,15 @@
+dependencies:
+- name: bootstrap
+  repository: file://../bootstrap
+  version: 0.1.0
+- name: microservice
+  repository: file://../_subcharts/microservice
+  version: 0.1.0
+- name: microservice
+  repository: file://../_subcharts/microservice
+  version: 0.1.0
+- name: microservice
+  repository: file://../_subcharts/microservice
+  version: 0.1.0
+digest: sha256:eb1cbbfedb35984e4ef582aadfb733302c9d064aa53aa368a2ef7aba7c12907b
+generated: "2023-05-11T16:50:10.426228+02:00"
