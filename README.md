@@ -5,5 +5,5 @@
 
 ```bash
 helm dependency update master
-helm upgrade --install myrelease master --namespace mynamespace --create-namespace -f licmanager/values.prod.yaml --dry-run
+helm upgrade --install myrelease master --namespace mynamespace --create-namespace -f MASTER/values.prod.yaml --dry-run
 ```
